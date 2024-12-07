@@ -1,4 +1,4 @@
-const MAPBOX_TOKEN = "pk.eyJ1IjoibWFyY29zcmV1cXVlbiIsImEiOiJja3UxbXBzbHQzejJvMnBwcW4yN3pqemZuIn0.z65srWhOb5sS3GilPljOpw";
+/*const MAPBOX_TOKEN = "pk.eyJ1IjoibWFyY29zcmV1cXVlbiIsImEiOiJja3UxbXBzbHQzejJvMnBwcW4yN3pqemZuIn0.z65srWhOb5sS3GilPljOpw";
 const mapboxClient = new MapboxClient(MAPBOX_TOKEN);
 
 function initMap() {
@@ -49,4 +49,4 @@ function initSearchForm(callback) {
     map.setCenter(firstResult.geometry.coordinates);
     map.setZoom(14);
   });
-})();
+})();*/

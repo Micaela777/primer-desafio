@@ -24,8 +24,8 @@ export function initHeaderMenuCloseComponent() {
                 }
 
                 .menu-close-img{
-                    height: 50px;
-                    width: 50px;
+                    height: 30px;
+                    width: 30px;
                 }
 
                 .menu-close-img:hover{

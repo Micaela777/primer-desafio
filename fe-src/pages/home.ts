@@ -58,15 +58,27 @@ class Home extends HTMLElement{
                 font-style: normal;
                 color: #FAF7EE;
             }
+            @media (min-width: 760px){
+                .title{
+                    font-size: 45px;
+                }
+            }
 
             .sub-title{
                 max-width: 300px;
                 text-align: center;
                 margin: 0;
-                font-family: "Poppins", sans-serif;
+                font-family: "Roboto", system-ui;
                 font-weight: 300;
                 font-style: normal;
+                font-size: 18px;
                 color: #FAF7EE;
+            }
+            @media (min-width: 760px){
+                .sub-title{
+                    max-width: 600px;
+                    font-size: 23px;
+                }
             }
 
             .button-container{
@@ -88,7 +100,7 @@ class Home extends HTMLElement{
                 padding-top: 14px;
                 text-decoration: underline;
                 font-size: 15px;
-                font-family: "Poppins", sans-serif;
+                font-family: "Roboto", system-ui;
                 font-weight: 300;
                 font-style: normal;
                 color: #FAF7EE;

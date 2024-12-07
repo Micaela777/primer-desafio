@@ -6,8 +6,7 @@ export class User extends Model {}
   User.init({
     fullname: DataTypes.STRING,
     email: DataTypes.STRING,
-    bio: DataTypes.STRING,
-    pictureURL: DataTypes.STRING,
+    location: DataTypes.STRING,
     
   },{
     sequelize,

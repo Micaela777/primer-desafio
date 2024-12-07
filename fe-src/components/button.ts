@@ -19,9 +19,9 @@ export function initButtonComponent() {
                 width: 100%;
                 border: none;
                 border-radius: 50px;
-                padding: 9px 55px;
+                padding: 12px 55px;
                 font-size: 19px;
-                font-family: "Poppins", sans-serif;
+                font-family: "Roboto", system-ui;
                 font-weight: 500;
                 font-style: normal;
                 background-color: #FAF7EE;
@@ -29,7 +29,7 @@ export function initButtonComponent() {
 
             .button:hover{
                 cursor: pointer;
-                background-color: #ede1d5;
+                background-color: #f0e6dd;
             }
             
           `;
